@@ -4,15 +4,29 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://vuejs.org/guide/quick-start.html#using-vue-from-cdn"></script>
     <title>Document</title>
    
 
 </head>
 <body>
-    <header>hola </header>
+    <header> </header>
     <nav></nav>
     <section>
-        <div id="myIdentinficador"></div>
+        <h1>Inicio</h1>
+        <p>{{34+34}}</p>
+        <div id="myIdentinficador">  
+            <h1> HOLA Mundo </h1>
+            <p> desde Vue.JS</p> 
+            <p> {{2+5}}</p>     
+            <p>{{ false?'activo':'inactivo'}} </p>
+            <h4>nombre</h4>
+            <h4>{{nombre}} - {{apellido}} - {{mensaje}}</h4>
+            <button v-on:Click="cambiarNombre()" >Cambiar nombre</button>
+            <button v-on:Click="cambiarApellido()">Cambiar apellido</button>
+        </div>
+       
+        <h1>Fin</h1>
     </section>
     <footer></footer>
 
