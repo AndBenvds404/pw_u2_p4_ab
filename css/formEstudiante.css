@@ -1,0 +1,72 @@
+.contain{
+    display: flex;
+    
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+   
+    
+   
+}
+
+#appLista{
+    
+    margin: 50px;
+    padding: 12px;
+    border-radius: 12px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+   
+    
+}
+.formulario{
+    background-color: aliceblue;
+    margin-left: 50px;
+    border: 1px solid black;
+    padding: 50px;
+    border-radius: 7px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    width: 400px;
+    height: 500px;
+   
+}
+
+.listaEstudiantes{
+    text-align: left;
+    margin-left: 60px;
+}
+
+
+
+#appLista input{
+    margin: 0px 5px 10px 5px ;
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid rgb(194, 192, 192);
+}
+
+
+
+#appLista label{
+    margin: 1px 5px;
+}
+
+
+
+.formulario div{
+    text-align: center;
+}
+
+button{
+    background: linear-gradient(to right, #B06AB3, #4568DC);
+    border: none;   
+    margin-top: 20px;
+    width: 300px;
+    height: 40px;
+    
+}
+
+
+
+
