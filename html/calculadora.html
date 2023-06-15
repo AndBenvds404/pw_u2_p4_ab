@@ -24,9 +24,9 @@
 
             <div id="AppCalculadora">
 
-                <label  id="IdlabelResultado" for="">{{resultado}}  </label>
+                <label  id="IdlabelResultado"  for="" v-model="res">{{res}}  </label>
                 
-
+                
                     <div class="botonesNums">
                         
                         <button v-on:click="insertarElemento(7)"> 7 </button>
@@ -39,7 +39,7 @@
                         <button v-on:click ="insertarElemento(2)"> 2 </button>
                         <button v-on:click ="insertarElemento(3)"> 3 </button>
                         <button v-on:click ="insertarElemento(0)"> 0 </button> 
-                        <button v-on:click ="operacion('/')"> / </button>
+                        <button v-on:click ="operacion('÷')"> / </button>
                         <button v-on:click  ="operacion('+')" > + </button>
                         <button v-on:click ="operacion('-')"> - </button>
                         <button v-on:click ="operacion('*')" > * </button>

@@ -20,6 +20,14 @@ section{
     padding: 10px;
    
 }
+
+#IdlabelResultado{
+    overflow: hidden;
+    
+    white-space: nowrap;
+      
+}
+
 .botonesNums button {
     padding: 35px 40px;
     margin: 8px;
