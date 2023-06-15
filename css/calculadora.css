@@ -1,0 +1,52 @@
+body{
+    text-align: center;
+   
+}
+.marcoCalc{
+    width: 500px;
+    margin: 20px auto;
+}
+
+section{
+    text-align: center;
+    border: 4px double black;
+    padding-top: 40px;
+    background-color: rgb(88, 123, 153);
+    box-shadow: 3px 3px 3px 3px cornflowerblue;
+    border-radius: 20px;
+}
+.botonesNums {
+    margin: 40px;
+    padding: 10px;
+   
+}
+.botonesNums button {
+    padding: 35px 40px;
+    margin: 8px;
+    font-size: 40px;
+    border-radius: 20px;
+   
+}
+
+#botonCero{
+    float: left;
+    margin-left: 22px;
+    
+}
+
+.cabecera h1{
+    text-align: center;
+}
+section label{
+    text-align: center;
+    display: inline-block;
+    background-color: rgb(67, 69, 69);
+    color: aliceblue;
+    font-size: 60px;
+    border: 2px double black ;
+    width: 350px;
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+   
+
+}

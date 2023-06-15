@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/calculadora.css" />
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <title>Document</title>
+ 
+
+
+</head>
+<body>
+    <div class="marcoCalc">
+
+    
+        <header class="cabecera"> 
+            <h1> CALCULADORA</h1>
+        </header>
+
+        <nav> </nav>
+        <section>
+
+            <div id="AppCalculadora">
+
+                <label  id="IdlabelResultado" for="">{{resultado}}  </label>
+                
+
+                    <div class="botonesNums">
+                        
+                        <button v-on:click="insertarElemento(7)"> 7 </button>
+                        <button v-on:click="insertarElemento(8)"> 8 </button>
+                        <button v-on:click ="insertarElemento(9)"> 9 </button>
+                        <button v-on:click ="insertarElemento(4)"> 4 </button>
+                        <button v-on:click ="insertarElemento(5)"> 5 </button>
+                        <button v-on:click ="insertarElemento(6)"> 6 </button>
+                        <button v-on:click ="insertarElemento(1)"> 1 </button>
+                        <button v-on:click ="insertarElemento(2)"> 2 </button>
+                        <button v-on:click ="insertarElemento(3)"> 3 </button>
+                        <button v-on:click ="insertarElemento(0)"> 0 </button> 
+                        <button v-on:click ="operacion('/')"> / </button>
+                        <button v-on:click  ="operacion('+')" > + </button>
+                        <button v-on:click ="operacion('-')"> - </button>
+                        <button v-on:click ="operacion('*')" > * </button>
+                    
+                        <button v-on:click="calcular()"> = </button>
+                    
+                    </div>
+            </div>
+            
+       
+
+        </section>
+        <footer> </footer>
+
+        <script src="../js/calculadora.js"></script>
+    </div>
+</body>
+</html>
